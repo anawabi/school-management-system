@@ -2,25 +2,25 @@
 deployment:
  tasks:
  - export DEPLOYPATH=/home/u2xoo5vmufch/public_html/alyfbaa/ems/
-    - /bin/cp -R app $DEPLOYPATH
-    - /bin/cp -R bin $DEPLOYPATH
-    - /bin/cp -R bootstrap $DEPLOYPATH
-    - /bin/cp -R config $DEPLOYPATH
-    - /bin/cp -R database $DEPLOYPATH
-    - /bin/cp -R public $DEPLOYPATH
-    - /bin/cp -R resources $DEPLOYPATH
-    - /bin/cp -R routes $DEPLOYPATH
-    - /bin/cp -R screenshots $DEPLOYPATH
-    - /bin/cp -R storage $DEPLOYPATH
-    - /bin/cp -R tests $DEPLOYPATH
-    - /bin/cp .env.example $DEPLOYPATH
-   - /bin/cp artisan $DEPLOYPATH
-   - /bin/cp composer.json $DEPLOYPATH
-   - /bin/cp composer.lock $DEPLOYPATH
-   - /bin/cp package.json $DEPLOYPATH
-   - /bin/cp package-lock.json $DEPLOYPATH
-   - /bin/cp phpunit.xml $DEPLOYPATH
-   - /bin/cp readme.md $DEPLOYPATH
-   - /bin/cp server.php $DEPLOYPATH
-   - /bin/cp webpack.backend.mix.js $DEPLOYPATH
-   - /bin/cp webpack.frontend.mix.js $DEPLOYPATH
+    - cp -R app $DEPLOYPATH
+    - cp -R bin $DEPLOYPATH
+    - cp -R bootstrap $DEPLOYPATH
+    - cp -R config $DEPLOYPATH
+    - cp -R database $DEPLOYPATH
+    - cp -R public $DEPLOYPATH
+    - cp -R resources $DEPLOYPATH
+    - cp -R routes $DEPLOYPATH
+    - cp -R screenshots $DEPLOYPATH
+    - cp -R storage $DEPLOYPATH
+    - cp -R tests $DEPLOYPATH
+    - cp .env.example $DEPLOYPATH
+   - cp artisan $DEPLOYPATH
+   - cp composer.json $DEPLOYPATH
+   - cp composer.lock $DEPLOYPATH
+   - cp package.json $DEPLOYPATH
+   - cp package-lock.json $DEPLOYPATH
+   - cp phpunit.xml $DEPLOYPATH
+   - cp readme.md $DEPLOYPATH
+   - cp server.php $DEPLOYPATH
+   - cp webpack.backend.mix.js $DEPLOYPATH
+   - cp webpack.frontend.mix.js $DEPLOYPATH
