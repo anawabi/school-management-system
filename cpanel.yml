@@ -1,7 +1,7 @@
 ---
 deployment:
  tasks:
- - export DEPLOYPATH=/home/u2xoo5vmufch/public_html/alyfbaa/ems
+ - export DEPLOYPATH=/home/u2xoo5vmufch/public_html/alyfbaa/ems/
     - /bin/cp -R app $DEPLOYPATH
     - /bin/cp -R bin $DEPLOYPATH
     - /bin/cp -R bootstrap $DEPLOYPATH
